@@ -4,7 +4,7 @@ import MarkdownEditor from '../components/MarkdownEditor.astro';
 ---
 
 <Layout title="Markdown Editor">
-  <main class="bg-white p-4 min-h-screen flex flex-col flex-grow">
+  <main class="bg-white p-4 flex flex-col flex-grow">
     <h1 class="flex justify-center items-center text-center text-4xl font-bold mb-6">Markdown Editor with Astro 🧑‍🚀🌍</h1>
     <MarkdownEditor />
   </main>
@@ -13,13 +13,3 @@ import MarkdownEditor from '../components/MarkdownEditor.astro';
   </footer>
 </Layout>
 
-<style>
-  :global(body) {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  }
-  main {
-    flex-grow: 1;
-  }
-</style>
