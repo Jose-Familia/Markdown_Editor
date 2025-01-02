@@ -13,3 +13,21 @@ import MarkdownEditor from '../components/MarkdownEditor.astro';
   </footer>
 </Layout>
 
+:global(body) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  height: 100%; 
+}
+
+footer {
+  flex-shrink: 0;
+}
